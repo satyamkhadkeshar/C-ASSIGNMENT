@@ -1,0 +1,23 @@
+
+#include <stdio.h>
+
+int main()
+{
+   int a,b,c,d,e;
+   float p,total;
+   printf("enter the marks of subject a");
+   scanf("%d",&a);
+   printf("enter the marks of subject b");
+   scanf("%d",&b);
+   printf("enter the marks of subect c");
+   scanf("%d",&c);
+   printf("enter the marks of subject d");
+   scanf("%d",&d);
+   printf("enter the marks of subject e");
+   scanf("%d",&e);
+   total= (a+b+c+d+e);
+   p= (total/500)*100;
+   printf("perentage = %f",p);
+   return 0;
+   
+}

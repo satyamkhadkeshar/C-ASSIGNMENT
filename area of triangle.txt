@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main()
+{
+   int hei,base,area;
+   printf("enter the base of the triangle");
+   scanf("%d",&base);
+   printf("enter the height of the triangle");
+   scanf("%d",&hei);
+   area= (base*hei)/2;
+   printf("area of the triangle : %d", area);
+   return 0;
+}

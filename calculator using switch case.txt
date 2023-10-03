@@ -1,0 +1,46 @@
+
+#include <stdio.h>
+void main()
+{
+    int num,a,b;
+    printf("enter 1 for addition, 2 for subtraction,3 for multiplication, 4 for division,");
+    scanf("%d",&num);
+    switch(num){
+        case 1 :  int add;
+         printf("enter the value of a and b");
+         scanf("%d",&a);
+         scanf("%d",&b);
+        add= a+b;
+        printf("enter the value of a and b");
+        scanf("%d",&a);
+        scanf("%d",&b);
+        printf("%d addition of two numbers=",add);
+        break;
+        case 2 :int sub;
+         printf("enter the value of a and b");
+         scanf("%d",&a);
+         scanf("%d",&b);
+        sub= a-b;
+        printf("%d subtraction of  two numbers =",sub);
+         
+        break;
+        case 3 : int mul;
+        printf("enter the value of a and b");
+        scanf("%d",&a);
+        scanf("%d",&b);
+        mul = a*b;
+        printf("%d multiplication of two numbers =",mul);
+        break;
+        case 4 : int div;
+        printf("enter the value of a and b");
+        scanf("%d",&a);
+        scanf("%d",&b);
+        div =a/b;
+        printf("division of two numbers = ",div);
+        break;
+        default : printf("wrong input please type between 1 to 4");
+        
+    }
+   
+    }
+

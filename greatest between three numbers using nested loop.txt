@@ -1,0 +1,34 @@
+
+#include <stdio.h>
+
+int main()
+#include <stdio.h>
+int main()
+{
+   int a,b,c;
+   printf("enter three number");
+   scanf("%d",&a);
+   scanf("%d",&b);
+   scanf("%d",&c);
+   if(a>b){
+       {
+           if(a>b){
+               printf("%d is the greatest number",a);
+           }
+           else{
+               printf("%d is the greatest number",c);
+           }
+       }
+   }
+   else if(b>a){
+       if(b>c){
+           printf("%d is the greatest number",b);
+       }
+       else{
+           printf("%d is the greatest number",c);
+       }
+   }
+   else{
+       printf("%d is the greatest number",c);
+   }
+}
